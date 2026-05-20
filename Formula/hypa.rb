@@ -5,5 +5,6 @@ class Hypa < Formula
   sha256 "0000000000000000000000000000000000000000000000000000000000000000"
 
   def install
+    odie "Hypa formula is a stub and does not yet define install steps. Add the build/install logic (for example, `system` build commands and `bin.install` or `libexec.install`) before installing."
   end
 end

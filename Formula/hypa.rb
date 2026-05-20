@@ -1,0 +1,2 @@
+class Hypa < Formula
+end

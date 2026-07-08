@@ -1,28 +1,28 @@
 class Hypa < Formula
   desc "Local context runtime for agentic development"
   homepage "https://github.com/Hypabolic/Hypa"
-  version "0.1.7"
+  version "0.1.8"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/Hypabolic/Hypa/releases/download/v0.1.7/hypa-osx-x64.tar.gz"
-      sha256 "fa2b8b33e79175cfbe8580e4fe20e5d48a163bad25c2a54aff5d85f797c74f77"
+      url "https://github.com/Hypabolic/Hypa/releases/download/v0.1.8/hypa-osx-x64.tar.gz"
+      sha256 "a3ec272ab1baae600ddfe95deabaf3b9c7e8d36389cb7dacabc2b028f4af1281"
     end
     on_arm do
-      url "https://github.com/Hypabolic/Hypa/releases/download/v0.1.7/hypa-osx-arm64.tar.gz"
-      sha256 "3edf47c7227a81e2bf32f0a821d837afa4eb7536e206cdbf2ef58a0052ef7034"
+      url "https://github.com/Hypabolic/Hypa/releases/download/v0.1.8/hypa-osx-arm64.tar.gz"
+      sha256 "9d93574c20a91da48b61cf8305b0e5816c8f4ccad92f11fcca29ae4dabe4dc15"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Hypabolic/Hypa/releases/download/v0.1.7/hypa-linux-x64.tar.gz"
-      sha256 "ad7009da08538ffa590e5298cfcf49420420a3c93d24516f5c14569f06708a0e"
+      url "https://github.com/Hypabolic/Hypa/releases/download/v0.1.8/hypa-linux-x64.tar.gz"
+      sha256 "b14aa26ef4c06912031f9edcba187e967741b1234d2cba849d33e3e2d5232c30"
     end
     on_arm do
-      url "https://github.com/Hypabolic/Hypa/releases/download/v0.1.7/hypa-linux-arm64.tar.gz"
-      sha256 "1bb2d8f493c4fdcc5c78377f461e1ef7eb5d8813af06754c582a14ddf189264d"
+      url "https://github.com/Hypabolic/Hypa/releases/download/v0.1.8/hypa-linux-arm64.tar.gz"
+      sha256 "56c772ff9c5054db9c3400f0fcd5840cd6d8113cb9cc0363ae629605fdcf3430"
     end
   end
 

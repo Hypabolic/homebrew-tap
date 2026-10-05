@@ -1,28 +1,28 @@
 class Hypa < Formula
   desc "Local context runtime and terminal multiplexer for coding agents"
   homepage "https://github.com/Hypabolic/Hypa"
-  version "1.0.5"
+  version "1.0.6"
   license "FSL-1.1-ALv2"
 
   on_macos do
     on_intel do
-      url "https://github.com/Hypabolic/Hypa/releases/download/v1.0.5/hypa-osx-x64.tar.gz"
-      sha256 "8522a75945494288bc7e380dfb75febd70f962379c9850373df1e74857d824d7"
+      url "https://github.com/Hypabolic/Hypa/releases/download/v1.0.6/hypa-osx-x64.tar.gz"
+      sha256 "30e2d25f2cc8c0f810c310da0e63e5ed76b0cc03a19ebe9fef6e0519f7c42ecb"
     end
     on_arm do
-      url "https://github.com/Hypabolic/Hypa/releases/download/v1.0.5/hypa-osx-arm64.tar.gz"
-      sha256 "dcaf6c10769d2e600bdd47bfe218cb74e1454a5515fa9e181ea4639fbf07bc3e"
+      url "https://github.com/Hypabolic/Hypa/releases/download/v1.0.6/hypa-osx-arm64.tar.gz"
+      sha256 "212fd04b5e08a3cbbe56011770b1801e125c7a2af56ae84bf2708f1d1820ffd6"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Hypabolic/Hypa/releases/download/v1.0.5/hypa-linux-x64.tar.gz"
-      sha256 "8cad6b4592ba57b288bf3791fadc362ad1c52408613651c98dd3d5439e6a28ef"
+      url "https://github.com/Hypabolic/Hypa/releases/download/v1.0.6/hypa-linux-x64.tar.gz"
+      sha256 "feeb644316dd5507d29e0bd21a49510fe33de0ec51a38d1d4e9af1cc1d560d18"
     end
     on_arm do
-      url "https://github.com/Hypabolic/Hypa/releases/download/v1.0.5/hypa-linux-arm64.tar.gz"
-      sha256 "5dacc2a84afbf25c2904d643fa203bba5389ad2e1e3790357527071b8ad9bbc2"
+      url "https://github.com/Hypabolic/Hypa/releases/download/v1.0.6/hypa-linux-arm64.tar.gz"
+      sha256 "96517e42b9f25bf9f720e032888458591cf641d477c53b356c1edbc413e056e8"
     end
   end
 
